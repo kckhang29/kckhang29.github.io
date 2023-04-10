@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
+                url('./img/header.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+.about-header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
+                url('./img/about.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+.contact-header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
+                url('./img/contact.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    font-size: 2em;
+    letter-spacing: 2px;
+
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.menu a:hover {
+    border-bottom: 2px solid indianred;
+}
+.login a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: indianred
+}
+
+.slider-content {
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.slider-content span {
+    letter-spacing: 5px;
+}
+.slider-content h1 {
+    font-size: 3.5em;
+}
+.slider-content a {
+    text-decoration: none;
+    background: indianred;
+    color: wheat;
+    padding: 10px 20px;
+}
+
+.slider-content-about {
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(240, 126, 126, 0.5)
+}
+.slider-content-about p {
+    font-size: 1.5em;
+}
+.slider-content-about a {
+    text-decoration: none;
+    background: rgb(224, 224, 224);
+    color: indianred;
+    padding: 10px 20px;
+}
+
+.slider-content-contact {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    border-radius: 6px;
+    background: #ffdddd;
+    padding: 30px 35px;
+    top: 30%;
+    left: 30%;
+}
+.slider-content-contact h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    border-bottom: 1px solid #000000;
+}
+.slider-content-contact .info-form {
+    display: block;
+    margin-top: 20px;
+}
+.info-form ul {
+    list-style: none;
+}
+.info-form ul li {
+    border-bottom: 1px solid #bda7a7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #161414;
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+}
