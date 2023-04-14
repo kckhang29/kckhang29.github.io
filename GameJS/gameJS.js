@@ -110,8 +110,8 @@ const questions = [
     question: 'is the lowest travel class of seating in air travel',
     answers: [
       { text: 'Business class', correct: true },
-      { text:  'First class', conrrect: false }
-      { text:  ' Premium economy class', conrrect: false }
+      { text:  'First class', conrrect: false },
+      { text:  ' Premium economy class', conrrect: false },
       { text: 'Economy class', correct: false }
     ]
   },
